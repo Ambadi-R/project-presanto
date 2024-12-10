@@ -1,0 +1,1635 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRESANTO</title>
+    <link rel="stylesheet" href="presantostyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-xl bg-body-tertiary position-sticky top-0 w-100 z-3 p-4"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand fs-2 fw-medium" style="margin-left: 6%" href="#"
+          >Presento<span class="text-danger">.</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="d-xl-flex justify-content-xl-end gap-4 collapse navbar-collapse nav-section"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li>
+              <a
+                class="nav-link active text-danger"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-links">
+              <a class="nav-link mx-0 mx-lg-3" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-0 mx-lg-3" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-0 mx-lg-3" href="#">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link me-3 dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown link
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <button class="nav-btn d-none d-xl-block">Get Contact</button>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid header-img g-0">
+      <div class="container h-100 d-flex align-items-center g-0">
+        <div class="col-12 col-md-6 header-div">
+          <h1 class="text-light">
+            Bettter digital experience <br />with Presento
+          </h1>
+          <p class="fs-4">
+            We are team of talented designers making websites with Bootstrap
+          </p>
+          <div class="d-flex align-items-center gap-2 mb-4">
+            <button class="mt-2">Get Started</button>
+            <button
+              id="header-btn"
+              class="mt-2 d-flex justify-content-center align-items-center"
+            >
+              <div
+                class="play-icon d-flex justify-content-center align-items-center me-2"
+              >
+                <i
+                  class="fa-solid fa-play fa-sm btn-icon"
+                  style="font-size: 16px"
+                ></i>
+              </div>
+              Watch Video
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container g-0">
+      <div class="row mt-5 g-0">
+        <div class="col-4 col-md-3 col-lg-2 brand-logo">
+          <img src="client-1.png" class="w-50 h-75" alt="" />
+        </div>
+        <div class="col-4 col-md-3 col-lg-2 brand-logo">
+          <img src="client-2.png" alt="" class="w-50 h-75" />
+        </div>
+        <div class="col-4 col-md-3 col-lg-2 brand-logo">
+          <img src="client-3.png" alt="" class="w-50 h-75" />
+        </div>
+        <div
+          class="col-4 col-md-3 col-lg-2 d-none d-md-block d-lg-block brand-logo"
+        >
+          <img src="client-4.png" alt="" class="w-50 h-75" />
+        </div>
+        <div
+          class="col-4 col-md-3 col-lg-2 d-none d-md-none d-lg-block brand-logo"
+        >
+          <img src="client-5.png" alt="" class="w-50 h-75" />
+        </div>
+        <div
+          class="col-4 col-md-3 col-lg-2 d-none d-md-none d-lg-block brand-logo"
+        >
+          <img src="client-6.png" alt="" class="w-50 h-75" />
+        </div>
+      </div>
+    </div>
+    <div class="col-12 d-flex justify-content-center gap-2 mt-2">
+      <div>
+        <i
+          class="fa-solid fa-circle fa-sm"
+          style="color: #e03a3c; font-size: 13px"
+        ></i>
+      </div>
+      <div>
+        <i
+          class="fa-solid fa-circle fa-sm"
+          style="color: #e6e6e6; font-size: 13px"
+        ></i>
+      </div>
+      <div>
+        <i
+          class="fa-solid fa-circle fa-sm"
+          style="color: #e6e6e6; font-size: 13px"
+        ></i>
+      </div>
+      <div>
+        <i
+          class="fa-solid fa-circle fa-sm"
+          style="color: #e6e6e6; font-size: 13px"
+        ></i>
+      </div>
+      <div>
+        <i
+          class="fa-solid fa-circle fa-sm"
+          style="color: #e6e6e6; font-size: 13px"
+        ></i>
+      </div>
+      <div>
+        <i
+          class="fa-solid fa-circle fa-sm"
+          style="color: #e6e6e6; font-size: 13px"
+        ></i>
+      </div>
+      <div>
+        <i
+          class="fa-solid fa-circle fa-sm"
+          style="color: #e6e6e6; font-size: 13px"
+        ></i>
+      </div>
+      <div>
+        <i
+          class="fa-solid fa-circle fa-sm"
+          style="color: #e6e6e6; font-size: 13px"
+        ></i>
+      </div>
+    </div>
+    <div class="container-fluid clip-path mt-5 mb-5 g-0">
+      <div class="row g-0 p-5">
+        <div class="col-12 col-lg-6 p-5 pathsection-1" style="margin-top: 7%">
+          <h1 class="text-light pt-5 pt-lg-0">
+            They provide the most valuable pleasure as it were
+          </h1>
+          <p class="mt-4 text-light fw-semibold">
+            It is important to take care of the patient, to be followed by the
+            patient, but it will happen at such a time that there is a lot of
+            work and pain. Duis or Irure pain in the rebuke
+          </p>
+          <button class="mt-2">ABOUT US ></button>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6" style="margin-top: 5%">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 clipath-section2">
+              <div class="pt-3">
+                <i
+                  class="fa-solid fa-envelope fa-sm mb-2"
+                  style="color: #e3020e; font-size: 35px"
+                ></i>
+              </div>
+              <h6 class="fs-5 fw-bold clipath-headings">
+                Let it be the pleasures of the body
+              </h6>
+              <p class="text-light">
+                They are the result,or at is where, of somtheing that is eqaul
+                to these labors, expect that some
+              </p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 pb-3 clipath-section2">
+              <div>
+                <i
+                  class="fa-regular fa-gem"
+                  style="color: #e3020e; font-size: 37px"
+                ></i>
+              </div>
+              <h6 class="fs-5 fw-bold clipath-headings">
+                Expect for any works
+              </h6>
+              <span class="text-light">
+                Unless they are blinded by lust,they do not come forth;they are
+                in fault who abandon their duties
+              </span>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 clipath-section2">
+              <div>
+                <i
+                  class="fa-solid fa-wifi mb-2"
+                  style="color: #e3020e; font-size: 33px"
+                ></i>
+              </div>
+              <h6 class="fs-5 fw-bold clipath-headings">
+                Hard work will result
+              </h6>
+              <p class="text-light">
+                Either he takes it whith no ne,or every one.All the pains that
+                the elders do
+              </p>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-6 mb-5 pb-5 clipath-section2">
+              <div>
+                <i
+                  class="fa-solid fa-tv mb-2"
+                  style="color: #e3020e; font-size: 33px"
+                ></i>
+              </div>
+              <h6 class="fs-5 fw-bold clipath-headings">
+                Of the blessed truth
+              </h6>
+              <p class="text-light">
+                The expedients of the truth are of no consequence at the time of
+                the praises of the covenants of life
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- editing section -->
+    <div class="container g-0">
+      <div class="row row-gap-5 row-gap-md-5 mb-5 pb-5 pt-5">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="position-relative h-100 shadow-sm">
+            <div
+              class="wrapper-emoji shadow position-absolute top-0 start-50 translate-middle"
+            >
+              <i
+                class="fa-regular fa-face-smile"
+                style="color: #e3020e; font-size: 25px"
+              ></i>
+            </div>
+            <div class="text-center p-4 pb-2">
+              <h2 class="fs-1 fw-bold text-secondary">232</h2>
+              <p class="mb-3 text-secondary">Happy Clients</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="position-relative h-100 shadow-sm">
+            <div
+              class="wrapper-emoji shadow position-absolute top-0 start-50 translate-middle"
+            >
+              <i
+                class="fa-solid fa-book"
+                style="color: #e3020e; font-size: 23px"
+              ></i>
+            </div>
+            <div class="text-center p-4 pb-2">
+              <h2 class="fs-1 fw-bold text-secondary">521</h2>
+              <p class="mb-3 text-secondary">Projects</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="position-relative h-100 shadow-sm">
+            <div
+              class="wrapper-emoji shadow position-absolute top-0 start-50 translate-middle"
+            >
+              <i
+                class="fa-solid fa-headset"
+                style="color: #e3020e; font-size: 24px"
+              ></i>
+            </div>
+            <div class="text-center p-4 pb-2">
+              <h2 class="fs-1 fw-bold text-secondary">1463</h2>
+              <p class="mb-3 text-secondary">Hours Of Suport</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="position-relative h-100 shadow-sm">
+            <div
+              class="wrapper-emoji shadow position-absolute top-0 start-50 translate-middle"
+            >
+              <i
+                class="fa-solid fa-user-group"
+                style="color: #e3020e; font-size: 20px"
+              ></i>
+            </div>
+            <div class="text-center p-4 pb-2">
+              <h2 class="fs-1 fw-bold text-secondary">15</h2>
+              <p class="mb-3 text-secondary">Hard Workers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-4 g-lg-3 g-md-2 g-0">
+        <div class="col-3 col-md-3">
+          <div
+            class="d-flex align-items-center justify-content-center p-4 box"
+            id="box-1"
+          >
+            <div>
+              <i
+                class="fa-solid fa-binoculars ms-2 box-icons"
+                style="font-size: 48px"
+              ></i>
+            </div>
+            <span class="ms-3 fw-medium lh-sm fs-5 d-none d-md-none d-lg-block"
+              >It should be a dela pireda nest</span
+            >
+          </div>
+        </div>
+        <div class="col-3 col-md-3 col-lg-3">
+          <div class="d-flex align-items-center justify-content-center p-4 box">
+            <div>
+              <i
+                class="fa-solid fa-box ms-2 box-icons"
+                style="font-size: 45px"
+              ></i>
+            </div>
+            <span
+              class="ms-3 me-4 fw-medium lh-sm fs-5 d-none d-md-none d-lg-block"
+              >Hence the present mara setra le</span
+            >
+          </div>
+        </div>
+        <div class="col-3 col-md-3 col-lg-3">
+          <div class="d-flex align-items-center justify-content-center p-4 box">
+            <div>
+              <i
+                class="fa-solid fa-lightbulb ms-2 box-icons"
+                style="font-size: 45px"
+              ></i>
+            </div>
+            <span class="ms-3 fw-medium box-text d-none d-md-none d-lg-block"
+              >Be prepared to explain the baking soda</span
+            >
+          </div>
+        </div>
+        <div class="col-3 col-md-3 col-lg-3">
+          <div class="d-flex align-items-center justify-content-center p-4 box">
+            <div>
+              <i
+                class="fa-solid fa-expand ms-2 box-icons"
+                style="font-size: 45px"
+              ></i>
+            </div>
+            <span class="ms-3 fs-5 lh-sm fw-medium d-none d-md-none d-lg-block"
+              >Ours, who called the node</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-5 g-lg-3 g-md-2 g-0">
+        <div class="col-12 col-md-12 col-lg-6">
+          <div class="p-3 p-md-0">
+            <h4 class="fw-bold img-heading">
+              They provide for the most worthy pleasures, as if the pleasures of
+              the body were to be assumed.
+            </h4>
+            <p class="fst-italic">
+              It is important to take care of the patient, to be followed by the
+              patient, but it will happen at such a time that there is a lot of
+              work and pain.
+            </p>
+            <p>
+              <i
+                class="fa-solid fa-check-double me-2"
+                style="color: #df360c; font-size: 22px"
+              ></i
+              >I do not work at all except to get some advantage out of it.
+            </p>
+            <p>
+              <i
+                class="fa-solid fa-check-double me-2"
+                style="color: #df360c; font-size: 22px"
+              ></i
+              >Doubts austere ireur pain in reprehende in pleasure he wants .
+            </p>
+            <p>
+              <i
+                class="fa-solid fa-check-double me-2"
+                style="color: #df360c; font-size: 22px"
+              ></i>
+              I do not work at all except to get some advantage out of it. Duis
+              aureo irrure pain in censerit in pleasure tridetas storacalaperda
+              mastir pain eu fu no brevet.
+            </p>
+            <p>
+              I do not work at all except to get some advantage out of it. Do
+              not be angry with the pain in the reprimand in the pleasure he
+              wants to be a hair from the pain in the hope that there is no
+              breeding. Unless they are blinded by lust, they do not come out,
+              they are in fault who abandon their duties, the soul softens, that
+              is toils
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6">
+          <img src="working-1.jpg" class="img-fluid" alt="working img" />
+        </div>
+      </div>
+    </div>
+    <!-- editing section end -->
+
+    <!-- SERVICES SECTION -->
+
+    <div class="container-fluid clipath-2 pb-5 mb-5 g-0">
+      <div class="container pt-5 pb-5">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center pt-5"
+        >
+          <h1>Services</h1>
+          <div class="underline mb-3 mt-2"></div>
+          <p class="fw-medium">
+            His needs result from something he wants to escape from
+          </p>
+        </div>
+        <div class="row row-gap-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div
+              class="d-flex gap-4 services-box p-4 pb-5 mb-4 mb-md-4 mb-lg-0"
+            >
+              <div>
+                <i
+                  class="fa-solid fa-briefcase"
+                  style="color: #d41616; font-size: 35px"
+                ></i>
+              </div>
+              <div>
+                <h4>Thank you very much</h4>
+                <p>
+                  The pleasures of the spoiled and corrupted do not foresee the
+                  pains and troubles they are about to experience, blinded by
+                  lust
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div
+              class="d-flex gap-4 services-box p-4 pb-5 mb-4 mb-md-4 mb-lg-0"
+            >
+              <div>
+                <i
+                  class="fa-solid fa-list"
+                  style="color: #e01010; font-size: 35px"
+                ></i>
+              </div>
+              <div>
+                <h4>Pain System</h4>
+                <p>
+                  I'm sorry, no one should try any kind of work unless he gets
+                  some benefit from it
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="d-flex gap-4 services-box p-4 mb-4 mb-md-4 mb-lg-0">
+              <div>
+                <i
+                  class="fa-solid fa-signal"
+                  style="color: #e40707; font-size: 35px"
+                ></i>
+              </div>
+              <div>
+                <h4>But to understand</h4>
+                <p>
+                  Do not be angry with the pain in the reprimand in the pleasure
+                  he wants to be a hair from the pain in the hope that there is
+                  no breeding
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="d-flex gap-4 services-box p-4 mb-4 mb-md-4 mb-lg-0">
+              <div>
+                <i
+                  class="fa-solid fa-binoculars"
+                  style="color: #dc0909; font-size: 35px"
+                ></i>
+              </div>
+              <div>
+                <h4>Great Pains</h4>
+                <p>
+                  Unless they are blinded by lust, they do not come out, they
+                  are in fault who abandon their duties, the soul softens, that
+                  is toils
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="d-flex gap-4 services-box p-4 mb-4 mb-md-4 mb-lg-0">
+              <div>
+                <i
+                  class="fa-regular fa-sun"
+                  style="color: #d30909; font-size: 35px"
+                ></i>
+              </div>
+              <div>
+                <h4>No one</h4>
+                <p>
+                  But in truth we both accuse those who are worthy of just
+                  hatred, who are softened by the flattery of present pleasures
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-sm-12 col-md-6 col-lg-6 pb-5 mb-5 mb-md-0 mb-lg-0"
+          >
+            <div class="d-flex gap-4 services-box p-4">
+              <div>
+                <i
+                  class="fa-solid fa-calendar-days"
+                  style="color: #d90808; font-size: 35px"
+                ></i>
+              </div>
+              <div>
+                <h4>The same time</h4>
+                <p>
+                  And indeed the distinction between these things is easy and
+                  expedient. For free time, when it is free for us to choose
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SERVICES SECTION END -->
+
+    <div class="container">
+      <div
+        class="d-flex flex-column justify-content-center align-items-center pt-5"
+      >
+        <h1>PORTFOLIO</h1>
+        <div class="underline mb-3 mt-2"></div>
+        <p class="fw-medium mb-5">
+          His needs result from something he wants to escape from
+        </p>
+        <div class="links d-flex gap-4 mb-3">
+          <li>
+            <a class="text-decoration-none text-danger fs-5 fw-medium" href="#"
+              >All</a
+            >
+          </li>
+          <li>
+            <a class="text-decoration-none fs-5 fw-medium" href="#">App</a>
+          </li>
+          <li>
+            <a class="text-decoration-none fs-5 fw-medium" href="#">Product</a>
+          </li>
+          <li>
+            <a class="text-decoration-none fs-5 fw-medium" href="#">Branding</a>
+          </li>
+          <li>
+            <a class="text-decoration-none fs-5 fw-medium" href="#">Books</a>
+          </li>
+        </div>
+      </div>
+
+      <div class="row mb-4 row-gap-4">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 app-1-box">
+          <div class="app-1">
+            <img src="Enno app-1.jpg" height="100%" width="100%" />
+            <div class="hover-box">
+              <div class="hover-box-logo text-center">
+                <h6 class="">App 1</h6>
+              </div>
+              <div class="hover-box-icons text-center">
+                <i
+                  class="fa-solid fa-magnifying-glass-plus"
+                  style="font-size: 25px; margin-right: 10px"
+                ></i>
+                <i class="fa-solid fa-link" style="font-size: 25px"></i>
+              </div>
+              <p class="hover-box-p fw-medium">
+                Thank you very much, the pain will be followed
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 app-1-box">
+          <div class="app-1">
+            <img src="Enno product-1.jpg" height="100%" width="100%" />
+            <div class="hover-box">
+              <div class="hover-box-logo text-center" style="width: 75px">
+                <h6 class="">Product 1</h6>
+              </div>
+              <div class="hover-box-icons text-center">
+                <i
+                  class="fa-solid fa-magnifying-glass-plus"
+                  style="font-size: 25px; margin-right: 10px"
+                ></i>
+                <i class="fa-solid fa-link" style="font-size: 25px"></i>
+              </div>
+              <p class="hover-box-p fw-medium">
+                Thank you very much, the pain will be followed
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 app-1-box">
+          <div class="app-1">
+            <img src="Enno branding-1.jpg" height="100%" width="100%" />
+            <div class="hover-box">
+              <div class="hover-box-logo text-center" style="width: 85px">
+                <h6 class="">Branding 1</h6>
+              </div>
+              <div class="hover-box-icons text-center">
+                <i
+                  class="fa-solid fa-magnifying-glass-plus"
+                  style="font-size: 25px; margin-right: 10px"
+                ></i>
+                <i class="fa-solid fa-link" style="font-size: 25px"></i>
+              </div>
+              <p class="hover-box-p fw-medium">
+                Thank you very much, the pain will be followed
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 app-1-box">
+          <div class="app-1">
+            <img src="Enno books-1.jpg" height="100%" width="100%" />
+            <div class="hover-box">
+              <div class="hover-box-logo text-center" style="width: 70px">
+                <h6 class="">Books 1</h6>
+              </div>
+              <div class="hover-box-icons text-center">
+                <i
+                  class="fa-solid fa-magnifying-glass-plus"
+                  style="font-size: 25px; margin-right: 10px"
+                ></i>
+                <i class="fa-solid fa-link" style="font-size: 25px"></i>
+              </div>
+              <p class="hover-box-p fw-medium">
+                Thank you very much, the pain will be followed
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 app-1-box">
+          <div class="app-1">
+            <img src="Enoo phone.jpg" height="100%" width="100%" />
+            <div class="hover-box">
+              <div class="hover-box-logo text-center" style="width: 60px">
+                <h6 class="">App 2</h6>
+              </div>
+              <div class="hover-box-icons text-center">
+                <i
+                  class="fa-solid fa-magnifying-glass-plus"
+                  style="font-size: 25px; margin-right: 10px"
+                ></i>
+                <i class="fa-solid fa-link" style="font-size: 25px"></i>
+              </div>
+              <p class="hover-box-p fw-medium">
+                Thank you very much, the pain will be followed
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 app-1-box">
+          <div class="app-1">
+            <img src="Enno product-2.jpg" height="100%" width="100%" />
+            <div class="hover-box">
+              <div class="hover-box-logo text-center" style="width: 85px">
+                <h6 class="">Product 2</h6>
+              </div>
+              <div class="hover-box-icons text-center">
+                <i
+                  class="fa-solid fa-magnifying-glass-plus"
+                  style="font-size: 25px; margin-right: 10px"
+                ></i>
+                <i class="fa-solid fa-link" style="font-size: 25px"></i>
+              </div>
+              <p class="hover-box-p fw-medium">
+                Thank you very much, the pain will be followed
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 app-1-box">
+          <div class="app-1">
+            <img src="Enno branding-2.jpg" height="100%" width="100%" />
+            <div class="hover-box">
+              <div class="hover-box-logo text-center" style="width: 85px">
+                <h6 class="">Branding 2</h6>
+              </div>
+              <div class="hover-box-icons text-center">
+                <i
+                  class="fa-solid fa-magnifying-glass-plus"
+                  style="font-size: 25px; margin-right: 10px"
+                ></i>
+                <i class="fa-solid fa-link" style="font-size: 25px"></i>
+              </div>
+              <p class="hover-box-p fw-medium">
+                Thank you very much, the pain will be followed
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 app-1-box">
+          <div class="app-1">
+            <img src="Enno books-2.jpg" height="100%" width="100%" />
+            <div class="hover-box">
+              <div class="hover-box-logo text-center" style="width: 65px">
+                <h6 class="">Book 2</h6>
+              </div>
+              <div class="hover-box-icons text-center">
+                <i
+                  class="fa-solid fa-magnifying-glass-plus"
+                  style="font-size: 25px; margin-right: 10px"
+                ></i>
+                <i class="fa-solid fa-link" style="font-size: 25px"></i>
+              </div>
+              <p class="hover-box-p fw-medium">
+                Thank you very much, the pain will be followed
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 app-1-box">
+          <div class="app-1">
+            <img src="Enno app-3.jpg" height="100%" width="100%" />
+            <div class="hover-box">
+              <div class="hover-box-logo text-center" style="width: 60px">
+                <h6 class="">App 3</h6>
+              </div>
+              <div class="hover-box-icons text-center">
+                <i
+                  class="fa-solid fa-magnifying-glass-plus"
+                  style="font-size: 25px; margin-right: 10px"
+                ></i>
+                <i class="fa-solid fa-link" style="font-size: 25px"></i>
+              </div>
+              <p class="hover-box-p fw-medium">
+                Thank you very much, the pain will be followed
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 app-1-box">
+          <div class="app-1">
+            <img src="Enno product-3.jpg" height="100%" width="100%" />
+            <div class="hover-box">
+              <div class="hover-box-logo text-center" style="width: 85px">
+                <h6 class="">Product 3</h6>
+              </div>
+              <div class="hover-box-icons text-center">
+                <i
+                  class="fa-solid fa-magnifying-glass-plus"
+                  style="font-size: 25px; margin-right: 10px"
+                ></i>
+                <i class="fa-solid fa-link" style="font-size: 25px"></i>
+              </div>
+              <p class="hover-box-p fw-medium">
+                Thank you very much, the pain will be followed
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 app-1-box">
+          <div class="app-1">
+            <img src="Enno branding-3.jpg" height="100%" width="100%" />
+            <div class="hover-box">
+              <div class="hover-box-logo text-center" style="width: 85px">
+                <h6 class="">Branding 3</h6>
+              </div>
+              <div class="hover-box-icons text-center">
+                <i
+                  class="fa-solid fa-magnifying-glass-plus"
+                  style="font-size: 25px; margin-right: 10px"
+                ></i>
+                <i class="fa-solid fa-link" style="font-size: 25px"></i>
+              </div>
+              <p class="hover-box-p fw-medium">
+                Thank you very much, the pain will be followed
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 app-1-box">
+          <div class="app-1">
+            <img src="Enno books-3.jpg" height="100%" width="100%" />
+            <div class="hover-box">
+              <div class="hover-box-logo text-center" style="width: 65px">
+                <h6 class="">Book 3</h6>
+              </div>
+              <div class="hover-box-icons text-center">
+                <i
+                  class="fa-solid fa-magnifying-glass-plus"
+                  style="font-size: 25px; margin-right: 10px"
+                ></i>
+                <i class="fa-solid fa-link" style="font-size: 25px"></i>
+              </div>
+              <p class="hover-box-p fw-medium">
+                Thank you very much, the pain will be followed
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="d-flex flex-column justify-content-center align-items-center pt-5"
+      >
+        <h1>Testimonials</h1>
+        <div class="underline mb-3 mt-2" style="height: 4px; width: 70px"></div>
+
+        <p class="fw-medium">
+          His needs result from something he wants to escape from
+        </p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 text-center">
+        <div class="col">
+          <div class="p-3 testmonials-box shadow mb-5">
+            <img
+              class="rounded-circle"
+              src="testimonials-1.jpg"
+              height="90px"
+              width="90px"
+            />
+            <h5 class="mt-2 mb-0">Saul Good man</h5>
+            <p class="mb-0 text-secondary">Ceo&Founder</p>
+            <div class="mt-2">
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            </div>
+
+            <p class="mt-3">
+              <i
+                class="fa-solid fa-quote-left me-2"
+                style="color: #e684a6; font-size: 22px"
+              ></i>
+
+              For the target group, the result is worth taking care of until the
+              airline takes over. The accusers, however, need that, and need
+              some discipline. Some faintness, but always a smile.
+              <i
+                class="fa-solid fa-quote-right ms-2"
+                style="color: #e684a6; font-size: 22px"
+              ></i>
+            </p>
+          </div>
+        </div>
+
+        <div class="col d-none d-md-none d-lg-block">
+          <div class="p-3 testmonials-box shadow">
+            <img
+              class="rounded-circle"
+              src="testimonials-2.jpg"
+              height="90px"
+              width="90px"
+            />
+            <h5 class="mt-2 mb-0">Sarah Wilson</h5>
+            <p class="mb-0 text-secondary">Designer</p>
+            <div class="mt-2">
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            </div>
+
+            <p class="mt-3">
+              <i
+                class="fa-solid fa-quote-left me-2"
+                style="color: #e684a6; font-size: 22px"
+              ></i>
+              Export time, however, I was for the evils of the evils that I was
+              going to be angry with the effort that I was going to be the one
+              who was going to be.
+              <i
+                class="fa-solid fa-quote-right ms-2"
+                style="color: #e684a6; font-size: 22px"
+              ></i>
+            </p>
+          </div>
+        </div>
+
+        <div class="col d-none d-md-none d-lg-block mb-5">
+          <div class="p-3 testmonials-box shadow">
+            <img
+              class="rounded-circle"
+              src="testimonials-3.jpg"
+              height="90px"
+              width="90px"
+            />
+            <h5 class="mt-2 mb-0">Jena karlis</h5>
+            <p class="mb-0 text-secondary">Store Owner</p>
+            <div class="mt-2">
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+              <i class="fa-solid fa-star" style="color: #ffd43b"></i>
+            </div>
+
+            <p class="mt-3">
+              <i
+                class="fa-solid fa-quote-left me-2"
+                style="color: #e684a6; font-size: 22px"
+              ></i>
+
+              For if I did not export a hair from your house, which are great,
+              none of which I would come to your house for a short time, I would
+              have been my home, or I would have been the smallest.<i
+                class="fa-solid fa-quote-right ms-2"
+                style="color: #e684a6; font-size: 22px"
+              ></i>
+            </p>
+          </div>
+        </div>
+        <div class="w-100 d-flex justify-content-center gap-2 mb-5">
+          <i
+            class="fa-solid fa-circle"
+            style="color: #e62525; font-size: 13px"
+          ></i>
+          <i
+            class="fa-solid fa-circle"
+            style="color: #e0e0e0; font-size: 13px"
+          ></i>
+          <i
+            class="fa-solid fa-circle"
+            style="color: #e0e0e0; font-size: 13px"
+          ></i>
+          <i
+            class="fa-solid fa-circle"
+            style="color: #e0e0e0; font-size: 13px"
+          ></i>
+          <i
+            class="fa-solid fa-circle"
+            style="color: #e0e0e0; font-size: 13px"
+          ></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRICING clipath section -->
+
+    <div class="container-fluid clip-path3 pb-5 pb-md-4 pb-lg-2">
+      <div
+        class="d-flex flex-column justify-content-center align-items-center pt-5 mt-5"
+      >
+        <h1 class="mt-5 text-light">PRICING</h1>
+        <div class="underline mb-3 mt-2" style="height: 4px; width: 70px"></div>
+
+        <p class="fw-medium mb-5 pb-4 text-light">
+          His needs result from something he wants to escape from
+        </p>
+      </div>
+      <div class="container">
+        <div class="row mb-5 g-0">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-3 mb-md-2 mb-lg-5">
+            <div class="side-box pe-4 ps-5 py-5 mb-3">
+              <h3 class="text-light">Free Plan</h3>
+              <div class="mb-4">
+                <span class="fs-2 text-danger">$</span>
+                <span class="fs-2 text-danger">0</span>
+                <span class="fs-5 pricing-cross-text">/month</span>
+              </div>
+              <ul class="list-unstyled">
+                <li class="mb-3 fw-medium pricing-list">
+                  <i class="fa-solid fa-check me-2" style="color: #00a31b"></i
+                  >What a coaching of life
+                </li>
+                <li class="mb-3 fw-medium pricing-list">
+                  <i class="fa-solid fa-check me-2" style="color: #00a31b"></i
+                  >Not even the price of Feugiat nisl
+                </li>
+                <li class="mb-3 fw-medium pricing-list">
+                  <i class="fa-solid fa-check me-2" style="color: #00a31b"></i
+                  >No one would use the yard at the weekend
+                </li>
+                <li
+                  class="mb-3 fw-medium text-decoration-line-through pricing-cross-text"
+                >
+                  <i class="fa-solid fa-xmark me-2" style="color: #8a8a8a"></i>A
+                  mass of ultricies
+                </li>
+                <li
+                  class="mb-3 fw-medium text-decoration-line-through pricing-cross-text"
+                >
+                  <i class="fa-solid fa-xmark me-2" style="color: #8a8a8a"></i
+                  >Massa ultricies mi quis hendrerit
+                </li>
+              </ul>
+              <div class="w-100 text-center">
+                <button class="mt-4 pricing-btn">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-3 mb-md-2 mb-lg-5">
+            <div class="center-box ps-5 pe-3 py-5 mb-3 center-box text-light">
+              <h4 class="">Bussines plan</h4>
+              <div class="mb-4">
+                <span class="fs-2">$</span>
+                <span class="fs-2">29</span>
+                <span class="fs-5">/month</span>
+              </div>
+              <ul class="list-unstyled">
+                <li class="mb-3 fw-medium">
+                  <i class="fa-solid fa-check me-2" style="color: #ffffff"></i
+                  >What a coaching of life
+                </li>
+                <li class="mb-3 fw-medium">
+                  <i class="fa-solid fa-check me-2" style="color: #ffffff"></i
+                  >Not even the price of Feugiat nisl
+                </li>
+                <li class="mb-3 fw-medium">
+                  <i class="fa-solid fa-check me-2" style="color: #ffffff"></i
+                  >No one would use the yard at the weekend
+                </li>
+                <li class="mb-3 fw-medium">
+                  <i class="fa-solid fa-check me-2" style="color: #ffffff"></i>A
+                  mass of ultricies
+                </li>
+                <li class="mb-3 fw-medium">
+                  <i class="fa-solid fa-check me-2" style="color: #ffffff"></i
+                  >Massa ultricies mi quis hendrerit
+                </li>
+              </ul>
+              <div class="w-100 text-center">
+                <button class="mt-4 pricing-center-btn">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-12 col-lg-4 mb-5">
+            <div class="side-box pe-4 ps-5 py-5 mb-2 mb-md-5 mb-lg-5">
+              <h4 class="text-light">Developer plan</h4>
+              <div class="mb-4">
+                <span class="fs-2 text-danger">$</span>
+                <span class="fs-2 text-danger">49</span>
+                <span class="fs-5 pricing-cross-text">/month</span>
+              </div>
+              <ul class="list-unstyled">
+                <li class="mb-3 fw-medium pricing-list">
+                  <i class="fa-solid fa-check me-2" style="color: #00a31b"></i
+                  >What a coaching of life
+                </li>
+                <li class="mb-3 fw-medium pricing-list">
+                  <i class="fa-solid fa-check me-2" style="color: #00a31b"></i
+                  >Not even the price of Feugiat nisl
+                </li>
+                <li class="mb-3 fw-medium pricing-list">
+                  <i class="fa-solid fa-check me-2" style="color: #00a31b"></i
+                  >No one would use the yard at the weekend
+                </li>
+                <li class="mb-3 fw-medium pricing-list">
+                  <i class="fa-solid fa-check me-2" style="color: #00a31b"></i>A
+                  mass of ultricies
+                </li>
+                <li class="mb-3 fw-medium pricing-list">
+                  <i class="fa-solid fa-check me-2" style="color: #00a31b"></i
+                  >Massa ultricies mi quis hendrerit
+                </li>
+              </ul>
+              <div class="w-100 text-center">
+                <button class="mt-4 pricing-btn">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRICING clipath section END -->
+
+    <!-- FSQ SECTION START -->
+    <div class="container">
+      <div
+        class="d-flex flex-column justify-content-center align-items-center pt-5"
+      >
+        <h1>Frequently Asked Questions</h1>
+        <div class="underline mb-3 mt-2" style="height: 4px; width: 70px"></div>
+
+        <p class="fw-medium">
+          His needs result from something he wants to escape from
+        </p>
+      </div>
+      <div class="row row-gap-3">
+        <div
+          class="col-10 col-sm-9 col-md-10 col-lg-10 faq-active m-auto p-3 pe-0 pt-4 pb-1"
+        >
+          <h5>Will it not be followed by a was for but a bed urn two?</h5>
+          <p>
+            The price of the product is very low. Time targeted urn id volutpat
+            lacus laoreet will not be taken care of pregnant. Venenatis bed
+            great fringilla urn porttitor rhoncus pure pain not.
+          </p>
+        </div>
+
+        <div
+          class="col-10 col-sm-9 col-md-10 col-lg-10 faq-box m-auto p-3 pe-0 pt-3 pb-3"
+        >
+          <h6>Does chocolate burn for the disease of the throat now?</h6>
+        </div>
+
+        <div
+          class="col-10 col-sm-9 col-md-10 col-lg-10 faq-box m-auto p-3 pe-0 pt-3 pb-3"
+        >
+          <h6>Is it painful to pursue a coaching program for kids?</h6>
+        </div>
+
+        <div
+          class="col-10 col-sm-9 col-md-10 col-lg-10 faq-box m-auto p-3 pe-0 pt-3 pb-3"
+        >
+          <h6>
+            And I hate the time of clinical trials. Are some of my teenagers in
+            the middle of nowhere?
+          </h6>
+        </div>
+
+        <div
+          class="col-10 col-sm-9 col-md-10 col-lg-10 faq-box m-auto p-3 pe-0 pt-3 pb-3"
+        >
+          <h6>Time for the kids to have some salad and a salad?</h6>
+        </div>
+
+        <div
+          class="col-10 col-sm-9 col-md-10 col-lg-10 faq-box m-auto p-3 pe-0 pt-3 pb-3 mb-5"
+        >
+          <h6>Do you see that where there are none, where there is no one?</h6>
+        </div>
+      </div>
+    </div>
+    <!-- FSQ SECTION END -->
+
+    <!-- LAST CLIP PATH SECTION -->
+    <div class="container-fluid last-clipath">
+      <div class="container">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center pt-5 mb-5"
+        >
+          <h1 class="text-light">Frequently Asked Questions</h1>
+          <div
+            class="underline mb-3 mt-2"
+            style="height: 4px; width: 70px"
+          ></div>
+
+          <p class="fw-medium text-light mb-5">
+            His needs result from something he wants to escape from
+          </p>
+        </div>
+        <div class="row row-gap-3">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 team-box">
+            <div>
+              <img
+                src="team-1.jpg"
+                alt="team member img"
+                height="100%"
+                width="100%"
+              />
+
+              <div class="d-flex gap-2 social-icons-box">
+                <div
+                  class="social-icon rounded d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-x-twitter p-2"
+                    style="color: #ffffff; font-size: 20px"
+                  ></i>
+                </div>
+                <div
+                  class="social-icon rounded d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-facebook p-2"
+                    style="color: #ffffff; font-size: 22px; opacity: 1"
+                  ></i>
+                </div>
+                <div
+                  class="social-icon rounded d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-instagram p-2"
+                    style="color: #ffffff; font-size: 27px"
+                  ></i>
+                </div>
+                <div
+                  class="social-icon rounded d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-linkedin p-2"
+                    style="color: #ffffff; font-size: 28px"
+                  ></i>
+                </div>
+              </div>
+
+              <div class="card-nameplate rounded-bottom py-3">
+                <h5 class="mb-0 ms-3 text-light">Walter White</h5>
+                <span class="ms-3 name-p">Chief Executive Officer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 team-box">
+            <div>
+              <img
+                src="team-2.jpg"
+                alt="team member img"
+                height="100%"
+                width="100%"
+              />
+
+              <div class="d-flex gap-2 social-icons-box">
+                <div
+                  class="social-icon rounded d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-x-twitter p-2"
+                    style="color: #ffffff; font-size: 20px"
+                  ></i>
+                </div>
+                <div
+                  class="social-icon rounded d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-facebook p-2"
+                    style="color: #ffffff; font-size: 22px; opacity: 1"
+                  ></i>
+                </div>
+                <div
+                  class="social-icon rounded d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-instagram p-2"
+                    style="color: #ffffff; font-size: 27px"
+                  ></i>
+                </div>
+                <div
+                  class="social-icon rounded d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-linkedin p-2"
+                    style="color: #ffffff; font-size: 28px"
+                  ></i>
+                </div>
+              </div>
+
+              <div class="card-nameplate rounded-bottom py-3">
+                <h5 class="mb-0 ms-3 text-light">Sarah Johnson</h5>
+                <span class="ms-3 name-p">Product manager</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 team-box">
+            <div>
+              <img
+                src="team-3.jpg"
+                alt="team member img"
+                height="100%"
+                width="100%"
+              />
+
+              <div class="d-flex gap-2 social-icons-box">
+                <div
+                  class="social-icon rounded d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-x-twitter p-2"
+                    style="color: #ffffff; font-size: 20px"
+                  ></i>
+                </div>
+                <div
+                  class="social-icon rounded d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-facebook p-2"
+                    style="color: #ffffff; font-size: 22px; opacity: 1"
+                  ></i>
+                </div>
+                <div
+                  class="social-icon rounded d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-instagram p-2"
+                    style="color: #ffffff; font-size: 27px"
+                  ></i>
+                </div>
+                <div
+                  class="social-icon rounded d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-linkedin p-2"
+                    style="color: #ffffff; font-size: 28px"
+                  ></i>
+                </div>
+              </div>
+
+              <div class="card-nameplate rounded-bottom py-3">
+                <h5 class="mb-0 ms-3 text-light">Wiiliam Anderson</h5>
+                <span class="ms-3 name-p">CTO</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 team-box">
+            <div>
+              <img
+                src="team-4.jpg"
+                alt="team member img"
+                height="100%"
+                width="100%"
+              />
+
+              <div class="d-flex gap-2 social-icons-box">
+                <div
+                  class="social-icon rounded d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-x-twitter p-2"
+                    style="color: #ffffff; font-size: 20px"
+                  ></i>
+                </div>
+                <div
+                  class="social-icon rounded d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-facebook p-2"
+                    style="color: #ffffff; font-size: 22px; opacity: 1"
+                  ></i>
+                </div>
+                <div
+                  class="social-icon rounded d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-instagram p-2"
+                    style="color: #ffffff; font-size: 27px"
+                  ></i>
+                </div>
+                <div
+                  class="social-icon rounded d-flex justify-content-center align-items-center"
+                >
+                  <i
+                    class="fa-brands fa-linkedin p-2"
+                    style="color: #ffffff; font-size: 28px"
+                  ></i>
+                </div>
+              </div>
+
+              <div class="card-nameplate rounded-bottom py-3">
+                <h5 class="mb-0 ms-3 text-light">Amanda Jepson</h5>
+                <span class="ms-3 name-p">Accountant</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- LAST CLIP PATH SECTION END -->
+
+    <!-- CONTACT SECTIION START -->
+
+    <div class="container">
+      <div
+        class="d-flex flex-column justify-content-center align-items-center pt-5 mb-3 mt-5"
+      >
+        <h1>CONTACT</h1>
+        <div class="underline mb-3 mt-2" style="height: 4px; width: 70px"></div>
+
+        <p class="fw-medium text-secondary mb-5">
+          His needs result from something he wants to escape from
+        </p>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 mb-5">
+          <div class="col-12 col-md-12 col-lg-12 shadow mb-3">
+            <div
+              class="col d-flex flex-column justify-content-center align-items-center p-4"
+            >
+              <div
+                class="location-logo d-flex justify-content-center align-items-center"
+              >
+                <i
+                  class="fa-solid fa-location-dot"
+                  style="color: #e03a3c; font-size: 25px"
+                ></i>
+              </div>
+              <h5 class="text-dark-emphasis mt-2">Address</h5>
+              <span>A108 Adam Street, New York, NY 535022</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+              <div
+                class="col d-flex flex-column justify-content-center align-items-center p-4 shadow"
+              >
+                <div
+                  class="location-logo d-flex justify-content-center align-items-center mb-2"
+                >
+                  <i
+                    class="fa-solid fa-phone"
+                    style="color: #e03a3c; font-size: 25px"
+                  ></i>
+                </div>
+                <h5>Call Us</h5>
+                <span class="mb-3">+1 5589 55488 55</span>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-6">
+              <div
+                class="col d-flex flex-column justify-content-center align-items-center shadow p-4"
+              >
+                <div
+                  class="location-logo d-flex justify-content-center align-items-center mb-2"
+                >
+                  <i
+                    class="fa-solid fa-envelope"
+                    style="color: #e03a3c; font-size: 25px"
+                  ></i>
+                </div>
+                <h5>Email Us</h5>
+                <span class="mb-3">info@example.com </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-12 col-lg-6 text-center h-100">
+          <div class="col shadow p-4">
+            <div class="row row-gap-4">
+              <div class="col-12 col-md-6 col-lg-6">
+                <input
+                  class="w-100 p-2 ps-3 input-style"
+                  type="text"
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="col-12 col-md-6 col-lg-6">
+                <input
+                  class="w-100 p-2 ps-3 input-style"
+                  type="email"
+                  placeholder="Your email"
+                />
+              </div>
+            </div>
+            <div class="w-100 my-4 bg-danger">
+              <input
+                class="w-100 p-2 ps-3 input-style"
+                type="text"
+                placeholder="Subject"
+              />
+            </div>
+            <div class="w-100">
+              <textarea
+                class="w-100 ps-3 pt-2 input-style"
+                rows="4"
+                type="text"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <button class="mt-4 input-btn">Send Message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT SECTION END -->
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="container-fluid footer-section">
+      <div class="container p-4">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-4 text-light">
+            <h3 class="pt-4">Presento</h3>
+            <div class="mt-4 mb-3">
+              A108 Adam Street <br />
+              New York, NY 535022
+            </div>
+            <p class="m-0">
+              <span class="fw-semibold mt-4"> Phone:</span> +1 5589 55488 55
+            </p>
+            <p class="m-0">
+              <span class="fw-semibold"> Email:</span> info@example.com
+            </p>
+            <div class="d-flex gap-2 mt-4">
+              <div
+                class="footer-icons d-flex justify-content-center align-items-center"
+              >
+                <i class="fa-brands fa-x-twitter"></i>
+              </div>
+              <div
+                class="footer-icons d-flex justify-content-center align-items-center"
+              >
+                <i class="fa-brands fa-facebook"></i>
+              </div>
+              <div
+                class="footer-icons d-flex justify-content-center align-items-center"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div
+                class="footer-icons d-flex justify-content-center align-items-center"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2">
+            <h5 class="pt-4 text-light">Useful Links</h5>
+            <div class="d-flex flex-column gap-2 mb-5 footer-links">
+              <a class="text-decoration-none" href="#">Home</a>
+              <a class="text-decoration-none" href="#">About us</a>
+              <a class="text-decoration-none" href="#">Services</a>
+              <a class="text-decoration-none" href="#">Terms of services</a>
+              <a class="text-decoration-none" href="#">Privacy policy</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2">
+            <h5 class="pt-0 pt-lg-4 text-light">Our Services</h5>
+            <div class="d-flex flex-column gap-2 mb-5 footer-links">
+              <a class="text-decoration-none" href="#">Web Design</a>
+              <a class="text-decoration-none" href="#">Web Development</a>
+              <a class="text-decoration-none" href="#">Product Management</a>
+              <a class="text-decoration-none" href="#">Marketing</a>
+              <a class="text-decoration-none" href="#">Graphic Design</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4 mt-0 pt-md-5 pt-lg-0">
+            <h3 class="pt-0 pt-lg-4 text-light">Our New sletter</h3>
+            <p class="text-light">
+              Subscribe to our newsletter and receive the latest news about our
+              products and services!
+            </p>
+            <div class="footer-input mb-5">
+              <input class="p-2 rounded-start" type="text" /><button
+                class="rounded-end p-2 footer-btn"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <hr class="text-secondary mt-3" />
+          <span class="text-light text-center mt-2">
+            © Copyright <span class="fw-bold">Presento </span>All Rights
+            Reserved
+          </span>
+          <span class="text-light text-center mb-5"
+            >Designed by <span class="text-danger">BootstrapMade</span></span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
